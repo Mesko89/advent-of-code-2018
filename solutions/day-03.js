@@ -13,6 +13,8 @@ function Fabric(patches) {
   const neverOverlaps = new Set();
   const overlaps = new Set();
 
+  let totalOverlappedArea = 0;
+
   function claim(x, y, id) {
     const key = `${x},${y}`;
     if (!(key in claimed)) {
@@ -26,6 +28,9 @@ function Fabric(patches) {
         neverOverlaps.delete(id);
         overlaps.add(id);
       });
+      if (claimed[key].length === 2) {
+        totalOverlappedArea++;
+      }
     } else if (claimed[key].length === 1) {
       if (!overlaps.has(id)) {
         neverOverlaps.add(id);
@@ -44,7 +49,7 @@ function Fabric(patches) {
   }
 
   function getTotalOverlappingArea() {
-    return Object.values(claimed).filter(c => c.length >= 2).length;
+    return totalOverlappedArea;
   }
 
   function getNonOverlappingId() {
