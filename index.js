@@ -33,7 +33,7 @@ async function bootstrap() {
       console.log(`  Part 1: ${p1Solution} (${Date.now() - p1Start} ms)`);
       const p2Start = Date.now();
       const p2Solution = await parts[i].part2(inputs[i]);
-      console.log(`  Part 2: ${p2Solution} (${Date.now() - p1Start} ms)`);
+      console.log(`  Part 2: ${p2Solution} (${Date.now() - p2Start} ms)`);
     }
   } catch (ex) {
     console.error(ex);
