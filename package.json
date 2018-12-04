@@ -27,5 +27,8 @@
   "homepage": "https://github.com/Mesko89/advent-of-code-2017#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0"
   }
 }

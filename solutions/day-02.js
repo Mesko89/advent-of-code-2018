@@ -1,7 +1,4 @@
-function count(array, filterFn) {
-  if (!array) return 0;
-  return array.filter(filterFn).length;
-}
+const { count } = require('./utils');
 
 function toArray(any) {
   return Array.from(any);
