@@ -1,4 +1,4 @@
-const { part1, part2 } = require('./day-09');
+const { part1 } = require('./day-09');
 
 describe('Day 09 - Part 1', () => {
   const tests = [
@@ -32,11 +32,4 @@ describe('Day 09 - Part 1', () => {
       expect(part1(test.input)).toBe(test.expectedOutput);
     });
   }
-});
-
-xdescribe('Day 09 - Part 2', () => {
-  it(`gets root node value`, () => {
-    const input = ['2 3 0 3 10 11 12 1 1 0 1 99 2 1 1 2'];
-    expect(part2(input)).toBe(66);
-  });
 });
