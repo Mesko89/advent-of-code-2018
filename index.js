@@ -12,7 +12,7 @@ function loadInput(file) {
 const days =
   process.argv.length > 2
     ? process.argv.slice(2).map(v => v.toString().padStart(2, '0'))
-    : Array.from({ length: 10 }).map((_, i) =>
+    : Array.from({ length: 11 }).map((_, i) =>
         (i + 1).toString().padStart(2, '0')
       );
 
