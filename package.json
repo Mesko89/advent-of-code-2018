@@ -1,7 +1,7 @@
 {
-  "name": "advent-of-code-2017",
+  "name": "advent-of-code-2018",
   "version": "1.0.0",
-  "description": "Solutions to Advent of Code 2017 challenges.",
+  "description": "Solutions to Advent of Code 2018 challenges.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mesko89/advent-of-code-2017.git"
+    "url": "git+https://github.com/Mesko89/advent-of-code-2018.git"
   },
   "keywords": [
     "challenges",
@@ -22,9 +22,9 @@
   "author": "Dejan \"Mesko\" Mesar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mesko89/advent-of-code-2017/issues"
+    "url": "https://github.com/Mesko89/advent-of-code-2018/issues"
   },
-  "homepage": "https://github.com/Mesko89/advent-of-code-2017#readme",
+  "homepage": "https://github.com/Mesko89/advent-of-code-2018#readme",
   "devDependencies": {
     "jest": "^23.6.0"
   },
