@@ -29,6 +29,7 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
+    "a-star": "^0.2.0",
     "date-fns": "^1.29.0"
   }
 }
